@@ -11,7 +11,7 @@ with open(json_file_path, 'r') as json_file:
 
 def get_model(model_name):
     model = None
-    if model_name == "Efficent Net 0":
+    if model_name == "Efficient Net 0":
         model = tf.keras.models.load_model("./data/food101_model_0.h5")
     elif model_name == "Efficient Net 1":
         model = tf.keras.models.load_model("./data/food101_model_1.h5")
