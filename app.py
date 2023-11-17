@@ -15,7 +15,7 @@ st.write("""
          """)
 st.sidebar.title("Navigation")
 
-selected_model = st.sidebar.radio("Select Model", ["Efficient Net 0", "Efficient Net 1", "Efficient Net 2"])
+selected_model = st.sidebar.radio("Select Model", ["Efficient Net 0", "Efficient Net 1", "Efficient Net 2"],2)
 model = get_model(selected_model)
 
 # Get sample image paths
